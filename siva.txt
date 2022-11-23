@@ -1,0 +1,17 @@
+				INTERNAL EXAM
+
+NAME:-		SIVASANKAR S
+ROLL NO:-	233
+
+
+import pandas as pd
+from sklearn.matrix import train_test()
+from sklearn.tree import Treeclassifiers()
+import seaborn as sns
+
+dataset=pd.read_csv('insurance.csv')
+dataset
+
+
+X_train,X_test,Y_train,Y_test=train_test('dataset').split('')
+x_test=scalar(X_train)
